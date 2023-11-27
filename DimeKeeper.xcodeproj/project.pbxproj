@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1298A08B2B1532C4001B0C23 /* DimeKeeperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298A08A2B1532C4001B0C23 /* DimeKeeperApp.swift */; };
+		1298A08D2B1532C4001B0C23 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298A08C2B1532C4001B0C23 /* Persistence.swift */; };
+		1298A0902B1532C4001B0C23 /* DimeKeeper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1298A08E2B1532C4001B0C23 /* DimeKeeper.xcdatamodeld */; };
+		1298A0922B1532C4001B0C23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298A0912B1532C4001B0C23 /* ContentView.swift */; };
+		1298A0942B1532C5001B0C23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1298A0932B1532C5001B0C23 /* Assets.xcassets */; };
+		1298A0982B1532C5001B0C23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1298A0972B1532C5001B0C23 /* Preview Assets.xcassets */; };
+		1298A0A22B1532C5001B0C23 /* DimeKeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298A0A12B1532C5001B0C23 /* DimeKeeperTests.swift */; };
+		1298A0AC2B1532C5001B0C23 /* DimeKeeperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298A0AB2B1532C5001B0C23 /* DimeKeeperUITests.swift */; };
+		1298A0AE2B1532C5001B0C23 /* DimeKeeperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298A0AD2B1532C5001B0C23 /* DimeKeeperUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1298A09E2B1532C5001B0C23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1298A07F2B1532C4001B0C23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1298A0862B1532C4001B0C23;
+			remoteInfo = DimeKeeper;
+		};
+		1298A0A82B1532C5001B0C23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1298A07F2B1532C4001B0C23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1298A0862B1532C4001B0C23;
+			remoteInfo = DimeKeeper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1298A0872B1532C4001B0C23 /* DimeKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DimeKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1298A08A2B1532C4001B0C23 /* DimeKeeperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimeKeeperApp.swift; sourceTree = "<group>"; };
+		1298A08C2B1532C4001B0C23 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		1298A08F2B1532C4001B0C23 /* DimeKeeper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DimeKeeper.xcdatamodel; sourceTree = "<group>"; };
+		1298A0912B1532C4001B0C23 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1298A0932B1532C5001B0C23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1298A0952B1532C5001B0C23 /* DimeKeeper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DimeKeeper.entitlements; sourceTree = "<group>"; };
+		1298A0972B1532C5001B0C23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1298A09D2B1532C5001B0C23 /* DimeKeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DimeKeeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1298A0A12B1532C5001B0C23 /* DimeKeeperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimeKeeperTests.swift; sourceTree = "<group>"; };
+		1298A0A72B1532C5001B0C23 /* DimeKeeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DimeKeeperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1298A0AB2B1532C5001B0C23 /* DimeKeeperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimeKeeperUITests.swift; sourceTree = "<group>"; };
+		1298A0AD2B1532C5001B0C23 /* DimeKeeperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimeKeeperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1298A0842B1532C4001B0C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1298A09A2B1532C5001B0C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1298A0A42B1532C5001B0C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1298A07E2B1532C4001B0C23 = {
+			isa = PBXGroup;
+			children = (
+				1298A0892B1532C4001B0C23 /* DimeKeeper */,
+				1298A0A02B1532C5001B0C23 /* DimeKeeperTests */,
+				1298A0AA2B1532C5001B0C23 /* DimeKeeperUITests */,
+				1298A0882B1532C4001B0C23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1298A0882B1532C4001B0C23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1298A0872B1532C4001B0C23 /* DimeKeeper.app */,
+				1298A09D2B1532C5001B0C23 /* DimeKeeperTests.xctest */,
+				1298A0A72B1532C5001B0C23 /* DimeKeeperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1298A0892B1532C4001B0C23 /* DimeKeeper */ = {
+			isa = PBXGroup;
+			children = (
+				1298A08A2B1532C4001B0C23 /* DimeKeeperApp.swift */,
+				1298A08C2B1532C4001B0C23 /* Persistence.swift */,
+				1298A0912B1532C4001B0C23 /* ContentView.swift */,
+				1298A0932B1532C5001B0C23 /* Assets.xcassets */,
+				1298A0952B1532C5001B0C23 /* DimeKeeper.entitlements */,
+				1298A08E2B1532C4001B0C23 /* DimeKeeper.xcdatamodeld */,
+				1298A0962B1532C5001B0C23 /* Preview Content */,
+			);
+			path = DimeKeeper;
+			sourceTree = "<group>";
+		};
+		1298A0962B1532C5001B0C23 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1298A0972B1532C5001B0C23 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1298A0A02B1532C5001B0C23 /* DimeKeeperTests */ = {
+			isa = PBXGroup;
+			children = (
+				1298A0A12B1532C5001B0C23 /* DimeKeeperTests.swift */,
+			);
+			path = DimeKeeperTests;
+			sourceTree = "<group>";
+		};
+		1298A0AA2B1532C5001B0C23 /* DimeKeeperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1298A0AB2B1532C5001B0C23 /* DimeKeeperUITests.swift */,
+				1298A0AD2B1532C5001B0C23 /* DimeKeeperUITestsLaunchTests.swift */,
+			);
+			path = DimeKeeperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1298A0862B1532C4001B0C23 /* DimeKeeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1298A0B12B1532C5001B0C23 /* Build configuration list for PBXNativeTarget "DimeKeeper" */;
+			buildPhases = (
+				1298A0832B1532C4001B0C23 /* Sources */,
+				1298A0842B1532C4001B0C23 /* Frameworks */,
+				1298A0852B1532C4001B0C23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DimeKeeper;
+			productName = DimeKeeper;
+			productReference = 1298A0872B1532C4001B0C23 /* DimeKeeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1298A09C2B1532C5001B0C23 /* DimeKeeperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1298A0B42B1532C5001B0C23 /* Build configuration list for PBXNativeTarget "DimeKeeperTests" */;
+			buildPhases = (
+				1298A0992B1532C5001B0C23 /* Sources */,
+				1298A09A2B1532C5001B0C23 /* Frameworks */,
+				1298A09B2B1532C5001B0C23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1298A09F2B1532C5001B0C23 /* PBXTargetDependency */,
+			);
+			name = DimeKeeperTests;
+			productName = DimeKeeperTests;
+			productReference = 1298A09D2B1532C5001B0C23 /* DimeKeeperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1298A0A62B1532C5001B0C23 /* DimeKeeperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1298A0B72B1532C5001B0C23 /* Build configuration list for PBXNativeTarget "DimeKeeperUITests" */;
+			buildPhases = (
+				1298A0A32B1532C5001B0C23 /* Sources */,
+				1298A0A42B1532C5001B0C23 /* Frameworks */,
+				1298A0A52B1532C5001B0C23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1298A0A92B1532C5001B0C23 /* PBXTargetDependency */,
+			);
+			name = DimeKeeperUITests;
+			productName = DimeKeeperUITests;
+			productReference = 1298A0A72B1532C5001B0C23 /* DimeKeeperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1298A07F2B1532C4001B0C23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					1298A0862B1532C4001B0C23 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					1298A09C2B1532C5001B0C23 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 1298A0862B1532C4001B0C23;
+					};
+					1298A0A62B1532C5001B0C23 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 1298A0862B1532C4001B0C23;
+					};
+				};
+			};
+			buildConfigurationList = 1298A0822B1532C4001B0C23 /* Build configuration list for PBXProject "DimeKeeper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1298A07E2B1532C4001B0C23;
+			productRefGroup = 1298A0882B1532C4001B0C23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1298A0862B1532C4001B0C23 /* DimeKeeper */,
+				1298A09C2B1532C5001B0C23 /* DimeKeeperTests */,
+				1298A0A62B1532C5001B0C23 /* DimeKeeperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1298A0852B1532C4001B0C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1298A0982B1532C5001B0C23 /* Preview Assets.xcassets in Resources */,
+				1298A0942B1532C5001B0C23 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1298A09B2B1532C5001B0C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1298A0A52B1532C5001B0C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1298A0832B1532C4001B0C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1298A0902B1532C4001B0C23 /* DimeKeeper.xcdatamodeld in Sources */,
+				1298A08B2B1532C4001B0C23 /* DimeKeeperApp.swift in Sources */,
+				1298A0922B1532C4001B0C23 /* ContentView.swift in Sources */,
+				1298A08D2B1532C4001B0C23 /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1298A0992B1532C5001B0C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1298A0A22B1532C5001B0C23 /* DimeKeeperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1298A0A32B1532C5001B0C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1298A0AC2B1532C5001B0C23 /* DimeKeeperUITests.swift in Sources */,
+				1298A0AE2B1532C5001B0C23 /* DimeKeeperUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1298A09F2B1532C5001B0C23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1298A0862B1532C4001B0C23 /* DimeKeeper */;
+			targetProxy = 1298A09E2B1532C5001B0C23 /* PBXContainerItemProxy */;
+		};
+		1298A0A92B1532C5001B0C23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1298A0862B1532C4001B0C23 /* DimeKeeper */;
+			targetProxy = 1298A0A82B1532C5001B0C23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1298A0AF2B1532C5001B0C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1298A0B02B1532C5001B0C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1298A0B22B1532C5001B0C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DimeKeeper/DimeKeeper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DimeKeeper/Preview Content\"";
+				DEVELOPMENT_TEAM = 8QQYNTY523;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weldtactics.DimeKeeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1298A0B32B1532C5001B0C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DimeKeeper/DimeKeeper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DimeKeeper/Preview Content\"";
+				DEVELOPMENT_TEAM = 8QQYNTY523;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weldtactics.DimeKeeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1298A0B52B1532C5001B0C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8QQYNTY523;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weldtactics.DimeKeeperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DimeKeeper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DimeKeeper";
+			};
+			name = Debug;
+		};
+		1298A0B62B1532C5001B0C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8QQYNTY523;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weldtactics.DimeKeeperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DimeKeeper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DimeKeeper";
+			};
+			name = Release;
+		};
+		1298A0B82B1532C5001B0C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8QQYNTY523;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weldtactics.DimeKeeperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DimeKeeper;
+			};
+			name = Debug;
+		};
+		1298A0B92B1532C5001B0C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8QQYNTY523;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weldtactics.DimeKeeperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DimeKeeper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1298A0822B1532C4001B0C23 /* Build configuration list for PBXProject "DimeKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1298A0AF2B1532C5001B0C23 /* Debug */,
+				1298A0B02B1532C5001B0C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1298A0B12B1532C5001B0C23 /* Build configuration list for PBXNativeTarget "DimeKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1298A0B22B1532C5001B0C23 /* Debug */,
+				1298A0B32B1532C5001B0C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1298A0B42B1532C5001B0C23 /* Build configuration list for PBXNativeTarget "DimeKeeperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1298A0B52B1532C5001B0C23 /* Debug */,
+				1298A0B62B1532C5001B0C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1298A0B72B1532C5001B0C23 /* Build configuration list for PBXNativeTarget "DimeKeeperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1298A0B82B1532C5001B0C23 /* Debug */,
+				1298A0B92B1532C5001B0C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1298A08E2B1532C4001B0C23 /* DimeKeeper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1298A08F2B1532C4001B0C23 /* DimeKeeper.xcdatamodel */,
+			);
+			currentVersion = 1298A08F2B1532C4001B0C23 /* DimeKeeper.xcdatamodel */;
+			path = DimeKeeper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1298A07F2B1532C4001B0C23 /* Project object */;
+}
