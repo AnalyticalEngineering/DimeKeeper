@@ -16,6 +16,12 @@
 		1298A0A22B1532C5001B0C23 /* DimeKeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298A0A12B1532C5001B0C23 /* DimeKeeperTests.swift */; };
 		1298A0AC2B1532C5001B0C23 /* DimeKeeperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298A0AB2B1532C5001B0C23 /* DimeKeeperUITests.swift */; };
 		1298A0AE2B1532C5001B0C23 /* DimeKeeperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298A0AD2B1532C5001B0C23 /* DimeKeeperUITestsLaunchTests.swift */; };
+		1298A0BC2B15465A001B0C23 /* BudgetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298A0BB2B15465A001B0C23 /* BudgetsView.swift */; };
+		1298A0C02B154B7B001B0C23 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298A0BF2B154B7B001B0C23 /* HapticsManager.swift */; };
+		1298A0C22B154D1E001B0C23 /* AddBudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298A0C12B154D1E001B0C23 /* AddBudgetView.swift */; };
+		1298A0C52B155300001B0C23 /* FloatingTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298A0C42B155300001B0C23 /* FloatingTextfield.swift */; };
+		1298A0C72B15584D001B0C23 /* IconPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298A0C62B15584D001B0C23 /* IconPicker.swift */; };
+		1298A0C92B156334001B0C23 /* AddBudgetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1298A0C82B156334001B0C23 /* AddBudgetViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		1298A0A72B1532C5001B0C23 /* DimeKeeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DimeKeeperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1298A0AB2B1532C5001B0C23 /* DimeKeeperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimeKeeperUITests.swift; sourceTree = "<group>"; };
 		1298A0AD2B1532C5001B0C23 /* DimeKeeperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimeKeeperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1298A0BB2B15465A001B0C23 /* BudgetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetsView.swift; sourceTree = "<group>"; };
+		1298A0BF2B154B7B001B0C23 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		1298A0C12B154D1E001B0C23 /* AddBudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBudgetView.swift; sourceTree = "<group>"; };
+		1298A0C42B155300001B0C23 /* FloatingTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTextfield.swift; sourceTree = "<group>"; };
+		1298A0C62B15584D001B0C23 /* IconPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconPicker.swift; sourceTree = "<group>"; };
+		1298A0C82B156334001B0C23 /* AddBudgetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBudgetViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +111,12 @@
 		1298A0892B1532C4001B0C23 /* DimeKeeper */ = {
 			isa = PBXGroup;
 			children = (
-				1298A08A2B1532C4001B0C23 /* DimeKeeperApp.swift */,
-				1298A08C2B1532C4001B0C23 /* Persistence.swift */,
-				1298A0912B1532C4001B0C23 /* ContentView.swift */,
+				1298A0C32B1552E6001B0C23 /* SupportFiles */,
+				1298A0BE2B154B64001B0C23 /* Manager */,
+				1298A0BD2B154B48001B0C23 /* Models */,
+				1298A0BA2B154610001B0C23 /* Views */,
 				1298A0932B1532C5001B0C23 /* Assets.xcassets */,
 				1298A0952B1532C5001B0C23 /* DimeKeeper.entitlements */,
-				1298A08E2B1532C4001B0C23 /* DimeKeeper.xcdatamodeld */,
 				1298A0962B1532C5001B0C23 /* Preview Content */,
 			);
 			path = DimeKeeper;
@@ -133,6 +145,44 @@
 				1298A0AD2B1532C5001B0C23 /* DimeKeeperUITestsLaunchTests.swift */,
 			);
 			path = DimeKeeperUITests;
+			sourceTree = "<group>";
+		};
+		1298A0BA2B154610001B0C23 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1298A0912B1532C4001B0C23 /* ContentView.swift */,
+				1298A0BB2B15465A001B0C23 /* BudgetsView.swift */,
+				1298A0C12B154D1E001B0C23 /* AddBudgetView.swift */,
+				1298A0C62B15584D001B0C23 /* IconPicker.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1298A0BD2B154B48001B0C23 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1298A08C2B1532C4001B0C23 /* Persistence.swift */,
+				1298A08A2B1532C4001B0C23 /* DimeKeeperApp.swift */,
+				1298A08E2B1532C4001B0C23 /* DimeKeeper.xcdatamodeld */,
+				1298A0C82B156334001B0C23 /* AddBudgetViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1298A0BE2B154B64001B0C23 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				1298A0BF2B154B7B001B0C23 /* HapticsManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		1298A0C32B1552E6001B0C23 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1298A0C42B155300001B0C23 /* FloatingTextfield.swift */,
+			);
+			path = SupportFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,10 +315,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1298A0C02B154B7B001B0C23 /* HapticsManager.swift in Sources */,
 				1298A0902B1532C4001B0C23 /* DimeKeeper.xcdatamodeld in Sources */,
+				1298A0C72B15584D001B0C23 /* IconPicker.swift in Sources */,
+				1298A0C92B156334001B0C23 /* AddBudgetViewModel.swift in Sources */,
 				1298A08B2B1532C4001B0C23 /* DimeKeeperApp.swift in Sources */,
+				1298A0C22B154D1E001B0C23 /* AddBudgetView.swift in Sources */,
+				1298A0BC2B15465A001B0C23 /* BudgetsView.swift in Sources */,
 				1298A0922B1532C4001B0C23 /* ContentView.swift in Sources */,
 				1298A08D2B1532C4001B0C23 /* Persistence.swift in Sources */,
+				1298A0C52B155300001B0C23 /* FloatingTextfield.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
